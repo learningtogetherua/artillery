@@ -130,3 +130,17 @@ footer {
     height: auto;
     text-align: center;
 }
+
+@media (max-width: 900px) {
+    .header__name {
+        text-align: center;
+    }
+    .menu {
+        justify-content: center;
+    }
+    .header__name {
+        display: block;
+
+    }
+
+}
