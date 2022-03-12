@@ -62,6 +62,14 @@ main {
     justify-content: center;
     align-items: center;
 }
+audio {
+    outline: none;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .menu {
     font-size: 24px;
     display: flex;
@@ -92,6 +100,9 @@ main {
     align-items: center;
     flex-wrap: wrap;
 }
+.main__item {
+    padding: 15px;
+}
 .card {
     width: 300px;
     height: 300px;
@@ -109,6 +120,7 @@ main {
     position: relative;
     width: 250px;
     margin: 0 auto;
+    height: 50px;
 }
 .info::after {
     content: '';
@@ -116,7 +128,7 @@ main {
     width: 50px;
     height: 50px;
     border-radius: 25px;
-    background-image: url(../img/author.jpg);
+    background-image: url(../img/anastasiya/author.jpg);
     background-size: cover;
     right: 0;
 
