@@ -114,7 +114,7 @@ nav {
     border-radius: 50%;
     margin-bottom: 15px;
 }
-.info {
+.info, .info-yulia {
     text-align: left;
     display: flex;
     flex-direction: column;
@@ -125,7 +125,7 @@ nav {
     margin: 0 auto;
     height: 50px;
 }
-.info::after {
+.info::after, .info-yulia::after {
     content: '';
     position: absolute;
     width: 45px;
@@ -137,6 +137,9 @@ nav {
     right: 0;
 
 
+}
+.info-yulia::after {
+    background-image: url(../img/yulia/author.jpg);
 }
 footer .container {
     border-top: 6px dotted #e9cf8c; 
@@ -163,6 +166,17 @@ footer {
         display: block;
 
     }
+    .card {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        margin-bottom: 10px;
+    }
+    .info {
+        width: 200px;
+        padding-right: 50px;
+        font-size: 12px;
+    }
 
 }
 @media (max-width: 620px) {
@@ -179,6 +193,7 @@ footer {
     }
     .header__title {
         margin-bottom: 10px;
+        font-size: 14px;
     }
     audio {
         margin-bottom: 15px;
@@ -203,7 +218,7 @@ footer {
     .menu__item {
         height: 30px;
     }
-    .card {
+    /* .card {
         width: 200px;
         height: 200px;
         border-radius: 50%;
@@ -213,5 +228,5 @@ footer {
         width: 200px;
         padding-right: 50px;
         font-size: 12px;
-    }
+    } */
 }
