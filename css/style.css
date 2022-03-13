@@ -172,7 +172,7 @@ footer {
         border-radius: 50%;
         margin-bottom: 10px;
     }
-    .info {
+    .info, .info-yulia {
         width: 200px;
         padding-right: 50px;
         font-size: 12px;
