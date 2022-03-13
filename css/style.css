@@ -66,6 +66,9 @@ main {
 audio {
     outline: none;
 }
+strong {
+    color: #e9cf8c; 
+}
 nav {
     display: flex;
     justify-content: space-between;
