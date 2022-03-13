@@ -51,6 +51,7 @@ h1{
 h1 span {
     text-transform: uppercase;
     font-size: 108px;
+    color: #e9cf8c;
 }
 
 
@@ -74,6 +75,7 @@ nav {
     font-size: 24px;
     display: flex;
     justify-content: flex-end;
+    align-items: center;
 }
 .menu a:hover {
     color: #e9cf8c; 
@@ -101,7 +103,7 @@ nav {
     flex-wrap: wrap;
 }
 .main__item {
-    padding: 15px;
+    padding: 15px 15px 25px;
 }
 .card {
     width: 300px;
@@ -123,10 +125,11 @@ nav {
 .info::after {
     content: '';
     position: absolute;
-    width: 50px;
-    height: 50px;
-    border-radius: 25px;
+    width: 45px;
+    height: 45px;
+    border-radius: 5px;
     background-image: url(../img/anastasiya/author.jpg);
+    border: 3px solid #bb9026;
     background-size: cover;
     right: 0;
 
@@ -163,13 +166,49 @@ footer {
     body {
         padding-top: 10px;
     }
+    h1 {
+        font-size: 48px;
+        margin-bottom: 5px;
+    }
+    h1 span {
+        font-size: 72px;
+        line-height: 1;
+    }
+    .header__title {
+        margin-bottom: 10px;
+    }
     audio {
         margin-bottom: 15px;
+        height: 30px;
     }
     nav {
         flex-direction: column;
+        justify-content: space-between;
     }
-    ul a {
+    .menu {
         font-size: 18px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+            }
+    .menu a:hover {
+        color: #e9cf8c; 
+    }
+    .menu li + li {
+       border: none;
+    }
+    .menu__item {
+        height: 30px;
+    }
+    .card {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        margin-bottom: 10px;
+    }
+    .info {
+        width: 200px;
+        padding-right: 50px;
+        font-size: 12px;
     }
 }
